@@ -110,12 +110,12 @@ useEffect(() => {
           <div className="calendar-box">
             <h2>CALENDAR</h2>
             <div className="mini-calendar">
-              <p>AUGUST 2025</p>
+              <p>OCTOBER 2025</p>
               <div className="days-grid">
                 {Array.from({ length: 31 }, (_, i) => (
                   <div 
                     key={i+1} 
-                    className={`day ${[28,29,30,31].includes(i+1) ? "highlight" : ""}`}
+                    className={`day ${[16,17,18,19].includes(i+1) ? "highlight" : ""}`}
                   >
                     {i+1}
                   </div>
